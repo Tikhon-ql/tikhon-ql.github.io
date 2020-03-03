@@ -1,0 +1,25 @@
+body,
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.item1 {
+  width: 600px;
+}
+
+#item1 {
+  font-size: 1.5rem;
+}
+.h1 {
+  font-size: 3em;
+  width: 600px;
+}
+
+.element ul .item4 {
+  color: brown;
+}
+a:hover .element ul li:nth-child(2n):hover {
+  font-size: 2em;
+  padding: 15px;
+}
