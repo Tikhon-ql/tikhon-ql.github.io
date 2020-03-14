@@ -1,0 +1,41 @@
+.itemB {
+  font-style: bold;
+}
+.itemS {
+  text-decoration: line-through;
+}
+.item li {
+  font-style: oblique;
+}
+.cursive {
+  font-style: italic;
+}
+.llist li a:hover
+{
+  color: aqua;
+  font-style: oblique;
+}
+footer
+{
+  margin-bottom: 70px;
+  /* text-align: center; */
+  color: blueviolet;
+}
+.list li
+{
+  padding: 15px;
+  display: inline;
+}
+.footer li
+{
+  display: inline;
+  outline: 2px solid cornflowerblue;
+  text-align: center;
+  list-style-position: inside;
+  margin: 0 30px;
+}
+img
+{
+  display: block;
+  margin:auto;
+}
