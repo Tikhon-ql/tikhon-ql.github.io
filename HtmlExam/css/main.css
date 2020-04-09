@@ -1,0 +1,70 @@
+body
+{
+    background-color:darkblue;
+    background-image: url("../images/fon4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+p
+{
+    clear: both;
+}
+/* .list 
+{
+    float: left;
+    list-style-type: none;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+} */
+.listRigth
+{
+    float:right;
+    position: absolute;
+    right: 0px;
+    top:1200px;
+}
+
+.listRigth ul
+{
+    list-style-type: none;
+    right: 0px;
+}
+.colorGreen a
+{
+    color: greenyellow;
+}
+.colorWhite
+{
+    color:white;
+}
+footer
+{
+    background-color: dimgray;
+}
+.icons
+{
+    position: absolute;
+    bottom:15px;
+    right: 25px;
+}
+@media screen and (max-width:960px)
+{
+    /* .list
+    {
+        float: none;
+        position: fixed;
+        display: none;
+    } */
+}
+@media screen and (max-width:800px)
+{
+    .listRigth
+    {
+        float: none;
+        position: fixed;
+        display: none;
+    }
+}
